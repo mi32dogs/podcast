@@ -1,0 +1,19 @@
+{
+	"name": "ShowPro/showpro-podcast",
+	"description": "A module for adding a podcast or multiple podcasts to your SilverStripe site. With support for audio, video or other files.",
+	"type": "silverstripe-module",
+	"keywords": ["podcast"],
+	"license": "MIT",
+	"authors": [{
+		"name": "Rob van Tuin",
+		"email": "rob@1stdesign.net"
+	}],
+	"require": {
+		"silverstripe/framework": "~3.4",
+		"silverstripe/cms": "~3.4",
+		"james-heinrich/getid3": "~1.9.12"
+	},
+	"extra": {
+		"installer-name": "showpro-podcast"
+	}
+}
