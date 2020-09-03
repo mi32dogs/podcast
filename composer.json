@@ -1,6 +1,6 @@
 {
     "name": "showpro/showpro-podcast",
-    "type": "silverstripe-vendormodule",
+    "type": "silverstripe-module",
     "description": "A module for adding a podcast or multiple podcasts to your SilverStripe site. With support for audio, video or other files.",
     "license": "BSD-3-Clause",
     "keywords": ["silverstripe","audio","video","podcast"],
