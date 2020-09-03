@@ -1,19 +1,19 @@
 {
-	"name": "mi32dogs/showpro-podcast",
-	"description": "A module for adding a podcast or multiple podcasts to your SilverStripe site. With support for audio, video or other files.",
-	"type": "silverstripe-module",
-	"keywords": ["podcast"],
-	"license": "MIT",
-	"authors": [{
-		"name": "Rob van Tuin",
-		"email": "rob@1stdesign.net"
-	}],
-	"require": {
-		"silverstripe/framework": "~3.4",
-		"silverstripe/cms": "~3.4",
-		"james-heinrich/getid3": "~1.9.12"
-	},
-	"extra": {
-		"installer-name": "showpro-podcast"
-	}
+    "name": "showpro/podcast",
+    "type": "silverstripe-vendormodule",
+    "description": "A module for adding a podcast or multiple podcasts to your SilverStripe site. With support for audio, video or other files.",
+    "license": "BSD-3-Clause",
+    "keywords": ["silverstripe","audio","video","podcast"],
+    "authors": [
+        {
+            "name": "Rob van Tuin"
+        }
+    ],
+    "require": {
+        "silverstripe/framework": "~3.4",
+        "silverstripe/cms": "~3.4",
+        "james-heinrich/getid3": "~1.9.12"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
